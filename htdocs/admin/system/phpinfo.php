@@ -311,7 +311,7 @@ function getConfigFilePath()
 				continue;
 			}
 
-			return $keyvalue;
+			return trim($keyvalue);
 		}
 	}
 
